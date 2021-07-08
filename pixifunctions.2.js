@@ -10,9 +10,9 @@ function three() {
     console.log("haha")
     // Init
 
-//     setTimeout(function () {
-//         gsap.ticker.add(() => {
-//             g.renderer.render(g.scene, g.camera);
-//         })
-//     }, 1000);
+    setTimeout(function () {
+        gsap.ticker.add(() => {
+            g.renderer.render(g.scene, g.camera);
+        })
+    }, 1000);
 }
