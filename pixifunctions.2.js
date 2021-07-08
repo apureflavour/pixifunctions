@@ -8,11 +8,6 @@ function three() {
     document.querySelector("section.token iframe").setAttribute("src", "https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x4cae95d03c85ae462daec44d5426f547a26faf47");
     g.pancakeSwap.remove();
     // Init
-    galaxy();
-    topo();
-    setTimeout(function () {
-        animateLogo();
-    }, 2000);
 
     setTimeout(function () {
         gsap.ticker.add(() => {
